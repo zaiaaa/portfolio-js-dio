@@ -13,29 +13,166 @@
     <!-- link de css -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portifolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+
 </head>
 
 <body>
     
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img class="photo" src="/assets/img/Opera Instantâneo_2023-05-23_002044_web.whatsapp.com.png" alt="Foto de Gustavo Zaia" srcset="">
             
             <h1 class="title">Olá, <br> eu sou Gustavo Zaia Rodrigues</h1>
         
-            <div class="informations">
-                <p>Junior Developer</p>
-                <p>Sorocaba - SP  </p>
-                <p>(15) 98831-5997</p>
-                <p>gustavozaia75@gmail.com</p>
-            </div>
-            
-            
-        
+            <div class="information">
+                <p class="job">
+                    <a target="_blank" href="https://www.linkedin.com/in/gustavo-zaia-1b0146272/">
+                    Junior Developer
+                    </a>
+                </p>
+                <p class="location">
+                    <a target="_blank"  href="https://www.google.com/maps/place/Sorocaba+-+SP/@-23.469867,-47.4367905,12z/data=!3m1!4b1!4m6!3m5!1s0x94c58abceb48f503:0x947f99ac59d0781b!8m2!3d-23.470905!4d-47.4851488!16zL20vMDJ4NzJt?entry=ttu">
+                    Sorocaba - SP
+                    </a>
+                </p>
+                <p class="phone">
+                    <a href="tel:(15) 98831-5997">
+                    (15) 98831-5997
+                    </a>
+                </p>
+                <p class="email">
+                    <a href="mailto:gustavozaia75@gmail.com">
+                        gustavozaia75@gmail.com
+                    </a>
+                </p>
+            </div>        
         </header>
-    </div>
 
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
 
+            <div class="content">
+                <div class="skills">
+                    
+                    <section class="tools">
+                        <h3>Principais linguagens:</h3>
+                        <ul>
+                                <li>
+                                    <img src="img/JavaScript-logo.png" alt="" srcset="">
+                                </li>
+                                <li>
+                                    <img src="img/pngwing.com.png" alt="" srcset="">
+                                </li>
+                                <li>
+                                    <img src="img/css-3-logo-1.png" alt="" srcset="">
+                                </li>
+                                <li>
+                                    <img src="img/PHP-logo.svg.png" alt="" srcset="">
+                                </li>
+                                <li>
+                                    <img src="img/Csharp_Logo.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/pngwing.com (1).png" alt="" srcset="">
+                                </li>
+
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul>
+                                <li>Liderança</li>
+                                <li>Facilidade de comunicação</li>
+                                <li>Organização</li>
+                                <li>Trabalho em equipe</li>
+                            </li>
+                        </ul>
+                    </section>
+                
+                </div>
+            </div>
+
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês</li>
+                    <li>Espanhol</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">        
+                    <h2>Portifólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portifolio">
+                    <li>
+                        <h3 class="title github">Criando uma pokedéx com JavaScript</h3>
+                        <a href="https://google.com" target="_blank">www.google.com</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando uma pokedéx com JavaScript</h3>
+                        <a href="">www.google.com</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando uma pokedéx com JavaScript</h3>
+                        <a href="">www.google.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <span class="title">
+                    <h2>
+                        Experiência profissional
+                    </h2>
+                </span>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Arrecadação de alimentos</h3>
+                        <span class="period">Jan 2020 - Current</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quaerat. Ipsam ducimus dolorem nemo minus incidunt iste culpa saepe? Neque earum ducimus laborum iure ab. Consequatur vero blanditiis repellat quasi!
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 class="title">Em busca do primeiro emprego</h3>
+                        <span class="period">Jan 2020 - Current</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quaerat. Ipsam ducimus dolorem nemo minus incidunt iste culpa saepe? Neque earum ducimus laborum iure ab. Consequatur vero blanditiis repellat quasi!
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+<script src="/assets/js/acordeon.js"></script>
 </body>
 
 </html>
