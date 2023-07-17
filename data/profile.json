@@ -1,6 +1,6 @@
 {
     "name": "Gustavo Zaia Rodrigues",
-    "photo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/Opera%20Instantâneo_2023-05-23_002044_web.whatsapp.com.png",
+    "photo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/Opera%20Instantâneo_2023-05-23_002044_web.whatsapp.com.png",
     "job": "Estudante de Desenvolvimento de Sistemas",
     "location": "Sorocaba - SP",
     "phone": "(15) 98831-5997",
@@ -8,28 +8,32 @@
     "skills": {
       "hardSkills": [
         {
-          "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+          "name": "C#",
+          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/Csharp_Logo.png"
         },
         {
-          "name": "Java",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/JavaScript-logo.png"
         },
         {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+          "name": "PHP",
+          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/PHP-logo.svg.png"
         },
         {
-          "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/css-3-logo-1.png"
         },
         {
-          "name": "Mongodb",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+          "name": "Python",
+          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/pngwing.com%20(1).png"
         },
         {
-          "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/pngwing.com.png"
+        },
+        {
+          "name": "mySQL",
+          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/pngwing.com%20(2).png"
         }
       ],
       "softSkills": [
