@@ -43,12 +43,30 @@ function updateLanguages (profileData){
     const languages = document.getElementById('profile.languages')
 
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
-
-    console.log(profileData.languages)
-
 }
 
+function updatePortfolio (profileData){
 
+    const portfolio = document.getElementById('profile.portfolio')
+
+    if(profileData.github){
+        portfolio.innerHTML = profileData.portfolio.map(project => `<li>
+        <h3 class="github">Criando uma pokedéx com JavaScript</h3>
+        <a href="">www.google.com</a>
+    </li>`)
+    }else {
+        portfolio.innerHTML = profileData.portfolio.map(project => `<li>
+        <h3>Criando uma pokedéx com JavaScript</h3>
+        <a href="">www.google.com</a>
+        </li>`)
+    }
+
+    
+
+
+    console.log(profileData.portfolio)
+
+}
 
 
 
@@ -58,4 +76,5 @@ function updateLanguages (profileData){
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updatePortfolio(profileData)
 })()
