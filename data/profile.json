@@ -52,13 +52,33 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Criando CRUD de animais em PHP",
+        "url": "https://github.com/zaiaaa/crud_pw",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "To-Do List",
+        "url": "https://github.com/zaiaaa/ToDo-list",
+        "github": true
+      },
+      {
+        "name": "Jo-ken-po com JavaScript",
+        "url": "https://github.com/zaiaaa/joken-po",
+        "github": true
+      },
+      {
+        "name": "Criando uma pokedex com JavaScript",
+        "url": "https://github.com/zaiaaa/pokedex",
+        "github": true
+      },
+      {
+        "name": "Aulas de Python",
+        "url": "https://github.com/zaiaaa/Aulas-Python-dio",
+        "github": true
+      },
+      {
+        "name": "Sistema bancário utilizando Python (Console)",
+        "url": "https://github.com/zaiaaa/desafio-projeto-python",
         "github": true
       }
     ],
