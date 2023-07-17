@@ -54,7 +54,7 @@
       {
         "name": "Criando CRUD de animais em PHP",
         "url": "https://github.com/zaiaaa/crud_pw",
-        "github": false
+        "github": true
       },
       {
         "name": "To-Do List",
@@ -84,19 +84,14 @@
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
+        "name": "Arrecadação de leite/alimentos",
         "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        "description": "Sou da escola ETEC Fernando Prestes e tenho o prazer de poder participar da gincana filantrópica de arrevadação de alimentos, onde vamos em mercados e começamos a arrecadar alimentos. É um trabalho voluntário muito legal e eu adoro participar!"
       },
       {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-      },
-      {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        "name": "Em busca do primeiro emprego",
+        "period": "Até o momento",
+        "description": "Sou um jovem de 16 anos que sonha em entrar na área de programação e arrumar um emprego."
       }
     ]
   }
