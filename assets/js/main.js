@@ -49,24 +49,30 @@ function updatePortfolio (profileData){
 
     const portfolio = document.getElementById('profile.portfolio')
 
-    if(profileData.github){
         portfolio.innerHTML = profileData.portfolio.map(project => `<li>
-        <h3 class="github">Criando uma pokedéx com JavaScript</h3>
-        <a href="">www.google.com</a>
-    </li>`)
-    }else {
-        portfolio.innerHTML = profileData.portfolio.map(project => `<li>
-        <h3>Criando uma pokedéx com JavaScript</h3>
-        <a href="">www.google.com</a>
-        </li>`)
-    }
+        <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+        <a href="${project.url}">${project.url}</a>
+    </li>`).join('')
+}
 
-    
+function updateExperience (profileData){
+    const professionalExperience = document.getElementById('profile.professionalExperience')
 
+    professionalExperience.innerHTML = profileData.professionalExperience.map(item =>{ 
+        return `<li>
+                        <h3 class="title">${item.name}</h3>
+                        <span class="period">${item.period}</span>
+                        <p>
+                            ${item.description}
+                        </p>
+                    </li>`
+    }).join('')
 
-    console.log(profileData.portfolio)
+    console.log(profileData.professionalExperience)
+
 
 }
+
 
 
 
@@ -77,4 +83,5 @@ function updatePortfolio (profileData){
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
+    updateExperience(profileData)
 })()

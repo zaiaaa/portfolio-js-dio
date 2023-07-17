@@ -32,7 +32,7 @@ a:hover {
 .main::before,
 .main::after {
     content: '';
-    background-image: url('/assets/icons/backgroung.svg');
+    background-image: url('assets/icons/backgroung.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
