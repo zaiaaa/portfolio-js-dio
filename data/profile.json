@@ -45,28 +45,28 @@
         "github": true
       },
       {
-        "name": "To-Do List",
-        "url": "https://github.com/zaiaaa/ToDo-list",
+        "name": "API de uma escola",
+        "url": "https://github.com/zaiaaa/api_alunos",
         "github": true
       },
       {
-        "name": "Jo-ken-po com JavaScript",
-        "url": "https://github.com/zaiaaa/joken-po",
+        "name": "EduSIS - Luminova (consome uma API criada por mim)",
+        "url": "https://github.com/zaiaaa/school-sys",
         "github": true
       },
       {
-        "name": "Criando uma pokedex com JavaScript",
-        "url": "https://github.com/zaiaaa/pokedex",
+        "name": "CBPatio",
+        "url": "https://github.com/zaiaaa/cbpatio",
         "github": true
       },
       {
-        "name": "Aulas de Python",
-        "url": "https://github.com/zaiaaa/Aulas-Python-dio",
+        "name": "TicketWave",
+        "url": "https://github.com/zaiaaa/TicketWave",
         "github": true
       },
       {
-        "name": "Sistema bancário utilizando Python (Console)",
-        "url": "https://github.com/zaiaaa/desafio-projeto-python",
+        "name": "Chat usando WebSockets",
+        "url": "https://github.com/zaiaaa/chat",
         "github": true
       }
     ],
@@ -77,9 +77,9 @@
         "description": "Sou da escola ETEC Fernando Prestes e tenho o prazer de poder participar da gincana filantrópica de arrevadação de alimentos, onde vamos em mercados e começamos a arrecadar alimentos. É um trabalho voluntário muito legal e eu adoro participar!"
       },
       {
-        "name": "Em busca do primeiro emprego",
-        "period": "Até o momento",
-        "description": "Sou um jovem de 16 anos que sonha em entrar na área de programação e arrumar um emprego."
+        "name": "Sistema escolar",
+        "period": "JUL/2023 - Até o momento",
+        "description": "Sistema escolar feito somente por mim, com API que compreende usuarios, salas e estudantes e seu FrontEnd. FIz usando MySql, NodeJS, React e outras libs."
       }
     ]
   }
