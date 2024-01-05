@@ -8,10 +8,6 @@
     "skills": {
       "hardSkills": [
         {
-          "name": "C#",
-          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/Csharp_Logo.png"
-        },
-        {
           "name": "JavaScript",
           "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/JavaScript-logo.png"
         },
@@ -20,17 +16,9 @@
           "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/PHP-logo.svg.png"
         },
         {
-          "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/css-3-logo-1.png"
-        },
-        {
-          "name": "Python",
-          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/pngwing.com%20(1).png"
-        },
-        {
-          "name": "HTML",
-          "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/pngwing.com.png"
-        },
+           "name": "NodeJS",
+            "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/node-js.svg"
+        }
         {
           "name": "mySQL",
           "logo": "https://raw.githubusercontent.com/zaiaaa/portfolio-js-dio/main/data/img/pngwing.com%20(2).png"
